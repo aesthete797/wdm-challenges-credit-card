@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="cardpage.css"/>
+<head>
+<title>Credit Card</title>
+</head>
+  <main>
+    <div class="container">
+      <div class="ze-card">
+        <img class="cc-logo" alt="The logo of the CC Company." src="cc-logo.png">
+        <img class="visa-logo" alt="The logo of the Visa Company." src="visa-logo.png">
+        <p class="fourtwo">4242 **** **** **** 4242</p>
+        <div class="lilp">
+     <div><p class="chol2">Card Holder</p><p class="chol">Tony Sanchez</p></div>
+        <div><p class="exp22">Expires</p><p class="exp11">02/25</p></div>
+		  </div>
+      </div>
+      <div class="card-details">
+        <form>
+     <label class="card-no">Card Number<input type="number" max="9999999999999999" min="1000000000000001" required="required"></label>
+          <label class="card-holder">Card Holder<input type="text" required="required"></label>
+          <div class="hiide"><p class="pi-one">Expiration Date</p><p>CVV</p></div>
+         <label class="exp-date"><select id="exp-one" name="Month">
+  <option>01</option>
+  <option>02</option>
+  <option>03</option>
+</select>  
+<select class="exp-two" name="Year">
+  <option>2022</option>
+  <option>2021</option>
+  <option>2020</option>
+</select>
+<input class="cav" type="number" min="111" max="998" required>
+</label>
+          
+          <input id="submit" type="submit">      
+          </form>
+      </div>
+      
+    </div>
+    </main>
